@@ -1,0 +1,47 @@
+Fibonacci
+Se utilizo fib_recursiva que es una función que se llama a si misma, dublicando su valor 
+lo cual nos da un ejemplo del funcionamiento de algun programa, que memoria y tiempo ocupa.
+Inicia de 0 aumentando se dublica su valor ejemplo:
+Se le indico que se el 3 se procesara 5 veces lo cual se dublico en bucle y nos indicara el tiempo, 
+memoria, el dato se obtuvo despues de 4 minutos con 33 segundos.
+n=5
+  rec  peak=0B  time≈0.0000s
+  memo peak=0B  time≈0.000001s
+  iter peak=80B  time≈0.000004s
+  se pidio que se repitiera 10 veces.
+n=10
+  rec  peak=0B  time≈0.0000s
+  memo peak=568B  time≈0.000002s
+  iter peak=80B  time≈0.000003s
+n=15
+  rec  peak=64B  time≈0.0001s
+  memo peak=64B  time≈0.000002s
+  iter peak=128B  time≈0.000006s
+n=20
+  rec  peak=160B  time≈0.0016s
+  memo peak=160B  time≈0.000005s
+  iter peak=128B  time≈0.000009s
+n=25
+  rec  peak=224B  time≈0.0151s
+  memo peak=1264B  time≈0.000007s
+  iter peak=128B  time≈0.000015s
+n=30
+  rec  peak=795B  time≈0.1351s
+  memo peak=160B  time≈0.000003s
+  iter peak=128B  time≈0.000011s
+n=35
+...
+n=45
+  rec  peak=3952B  time≈239.7590s
+  memo peak=2360B  time≈0.000004s
+  iter peak=132B  time≈0.000018s
+Se avelua el tiempo, memoria e interación como ejemplo Fibonacci, el enfoque iterativo es el más rápido y escalable.
+La memorización ofrece una mejora significativa sobre la recursión pura.
+La recursión sin optimización se vuelve impráctica para valores grandes.
+
+Interpretación de la Gráfica
+
+El eje X representa el tamaño del proceso (n), en escala logarítmica y en numeros enteros, además el eje Y muestra el tiempo promedio de ejecución en segundos.
+Lo aue se observa que el algoritmo recursivo se vuelve impráctico a partir de n = 30, la memorización mantiene tiempos bajos incluso en valores altos.
+y el enfoque iterativo es constante y muy eficiente, lo que quiere decir entre mas procesos que se ejecuten en el sistema consume mas recursos.
+
