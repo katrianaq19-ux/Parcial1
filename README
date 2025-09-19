@@ -1,14 +1,9 @@
 
 Recursividad:
-Es cuadràtica en los primeros procesos va a estable hasta el proceso 30 y despues aumenta el tiempo,
-lo cual no se puede analisar en la grafica por lo cual se desaparece en el proceso 45.
+“Esta gráfica de línea muestra cómo el tiempo promedio de procesamiento se mantiene estable y bajo en las primeras etapas del proceso 0 a 35 iba de 5 en 5 el aumento, pero a partir de n = 35 se observa un incremento abrupto, lo que podría indicar una sobrecarga del sistema, un aumento en la complejidad del procesamiento o una falla en la eficiencia del algoritmo a medida que se escala. lo cual se convierte en cuadrática.
 
 Memoria:
-Es cuadràtica en los primeros procesos va a estable hasta el proceso 20 y despues aumenta el tiempo,
-lo cual no se puede analisar en la grafica por lo cual se desaparece en el proceso 30.
-
-
-
+Es costante en sus variaciones en el eje "Y" se encuentra aproximadamente 0.5µs a 1.2µs de cada pico, mostrando variaciones del uso de los recursos en memoria de la operación al transcurrir la variable asignada.
 
 Iteracciòn:
-Es cuasilinel lo cual se se hace unas curvas que forman una "U", E
+Es cuasilinel lo cual se se hace unas curvas que forman una "U", sus variaciones de 5 en 5, tiene teniendo picos de procos.
