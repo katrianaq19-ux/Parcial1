@@ -1,0 +1,14 @@
+
+Recursividad:
+Es cuadràtica en los primeros procesos va a estable hasta el proceso 30 y despues aumenta el tiempo,
+lo cual no se puede analisar en la grafica por lo cual se desaparece en el proceso 45.
+
+Memoria:
+Es cuadràtica en los primeros procesos va a estable hasta el proceso 20 y despues aumenta el tiempo,
+lo cual no se puede analisar en la grafica por lo cual se desaparece en el proceso 30.
+
+
+
+
+Iteracciòn:
+Es cuasilinel lo cual se se hace unas curvas que forman una "U", E
